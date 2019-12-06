@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	border:2px solid black;
+}
 nav{
 	color:red;
 	word-spacing: 100px;
@@ -102,58 +105,38 @@ h3{
 	outline: solid 1px;
 }
 section{
-	margin: 5px;
+	margin: 2% 0%;
+}
+.top{
+	
 }
 .feature{
-	width: 32%;
+	width:24%;
+	display: inline-block;
+	margin: 1% 0 0 26%;
 }
-.feature p:last-child{
-	position: absolute;
-    right: 1%;
-    width: 32%;
-    bottom: 15%;
-}
-#about{
-	position: absolute;
-	right: 31%;
-	bottom: 176px;
-}
-.feature h3:first-child{
-	width: 32%;
+.about{
+	width: 24%;
+	display: inline-block;
 }
 .middle-img{
 	margin-left: 26%;
 }
 .service{
-	width: 17%;
-	margin-left: 25%;
+	width: 18%;
+	display: inline-block;
+	margin: 1% 0 0 24%;
 }
-.service h3{
-	margin-top: 5%;
+.product{
+	width: 18%;
+	display: inline-block;
 }
-#p{
-	position: absolute;
-	width: 17%;
-	right: 41%;
-	bottom: -10%;
+.vision{
+	width: 18%;
+	display: inline-block;
 }
-#pp{
-	position: absolute;
-	width: 17%;
-	right: 41%;
-	bottom: -18%;
-}
-#v{
-	position: absolute;
-	width: 17%;
-	right: 24%;
-	bottom: -10%;
-}
-#vp{
-	position: absolute;
-	width: 17%;
-	right: 24%;
-	bottom: -18%;
+.contact{
+	margin-left: 1%;
 }
 address{
 	width: 10%;
