@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 0; 
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,86 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	border:2px solid black;
+}
+nav{
+	color:red;
+	word-spacing: 100px;
+	margin: 0 0 0 20%;
+	display: inline-block;
+}
+header{
+	display: inline-block;
+	margin: 10% 30%
+}
+h1{
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	width: 48%;
+	text-align: center;
+	font-size: 80px;
+}
+#code{
+	margin: -363px 0px 0px 65%;
+}
+button{
+	margin: 5% 0% 0% 17%;
+}
+h3{
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.class{
+	margin: auto 10%;
+	display: inline-block;
+	height: 0px;
+	width: 34%;
+}
+.content{
+	outline: solid 1px;
+}
+section{
+	margin: 2% 0%;
+}
+.top{
+	
+}
+.feature{
+	width:24%;
+	display: inline-block;
+	margin: 1% 0 0 26%;
+}
+.about{
+	width: 24%;
+	display: inline-block;
+}
+.middle-img{
+	margin-left: 26%;
+}
+.service{
+	width: 18%;
+	display: inline-block;
+	margin: 1% 0 0 24%;
+}
+.product{
+	width: 18%;
+	display: inline-block;
+}
+.vision{
+	width: 18%;
+	display: inline-block;
+}
+.contact{
+	margin-left: 1%;
+}
+address{
+	width: 10%;
+}
+#brk{
+	margin: 10%;
+}
+footer{
+	text-align: center;
+}
